@@ -1,13 +1,15 @@
-# Credit Card Fraud Analysis — Member 1
+# credit-card-fraud-detection
 
-# Overview
+## Credit Card Fraud Analysis — Member 1
 
-'member1.py' performs an initial exploratory data analysis (EDA) of the
+### Overview
+
+`member1.py` performs an initial exploratory data analysis (EDA) of the
 credit-card transaction dataset. It checks the dataset's structure and quality,
 summarizes the `Class` labels, compares transaction amounts by class, and
 visualizes correlations between numeric features.
 
-# Requirements
+### Requirements
 
 - Python 3
 - pandas
@@ -21,13 +23,13 @@ Install the required packages from PowerShell:
 python -m pip install pandas numpy matplotlib seaborn
 ```
 
-# Dataset setup
+### Dataset setup
 
 Place `creditcard.csv` in the same folder as `member1.py`. The CSV must include
 the `Amount` and `Class` columns. The script checks that these columns exist
 before performing its analysis.
 
-# Run the analysis
+### Run the analysis
 
 Open PowerShell in this project folder and run:
 
@@ -41,7 +43,7 @@ If `python` is not recognized, try:
 py .\member1.py
 ```
 
-# Outputs
+### Outputs
 
 The script creates these folders if they do not already exist:
 
