@@ -1,0 +1,5 @@
+stage,legitimate (0),fraud (1)
+cleaned dataset,283253,473
+training before SMOTE,226602,378
+training after SMOTE,226602,226602
+test set,56651,95
