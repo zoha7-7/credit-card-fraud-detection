@@ -1,0 +1,16 @@
+{
+    "experiment": "lightgbm_smote_ratio_0_0325",
+    "sampling_strategy": 0.0325,
+    "original_training_rows": 181584,
+    "resampled_training_rows": 187173,
+    "resampled_class_counts": [
+        181282,
+        5891
+    ],
+    "best_iteration": 150,
+    "validation_average_precision": 0.8804195866920083,
+    "validation_roc_auc": 0.9643891972871278,
+    "precision_at_0.50": 0.8354430379746836,
+    "recall_at_0.50": 0.868421052631579,
+    "f1_at_0.50": 0.8516129032258064
+}

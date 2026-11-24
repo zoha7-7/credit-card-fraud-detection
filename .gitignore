@@ -1,1 +1,27 @@
+
+# Python environment and cache
+.venv/
+__pycache__/
+*.py[cod]
+
+# Original and generated datasets
 creditcard.csv
+processed_data/
+member2_output_backup/
+external_data/
+member2_test.csv
+member2_train_balanced_part*.csv
+
+# Large intermediate dataset artifacts
+artifacts/datasets/*.npz
+
+# Validation prediction arrays
+artifacts/validation_predictions/
+
+# Keep only the selected final model
+artifacts/trained_models/*.joblib
+!artifacts/trained_models/lightgbm_smote_ratio_0_03.joblib
+
+# Temporary files
+*.tmp
+.DS_Store

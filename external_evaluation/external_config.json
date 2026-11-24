@@ -1,0 +1,9 @@
+
+{
+    "feature_file": "artifacts/datasets/feature_columns.json",
+    "imputer": "artifacts/preprocessing/validation_imputer.joblib",
+    "scaler": "artifacts/preprocessing/validation_scaler.joblib",
+    "model": "artifacts/trained_models/lightgbm_smote_ratio_0_03.joblib",
+    "threshold": 0.85232879,
+    "target_column": "Class"
+}

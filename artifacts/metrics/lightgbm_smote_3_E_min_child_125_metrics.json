@@ -1,0 +1,18 @@
+{
+    "experiment": "E_min_child_125",
+    "sampling_strategy": 0.03,
+    "parameters": {
+        "n_estimators": 200,
+        "num_leaves": 15,
+        "max_depth": 5,
+        "learning_rate": 0.05,
+        "min_child_samples": 125,
+        "max_bin": 127,
+        "random_state": 42,
+        "n_jobs": 2,
+        "verbosity": -1
+    },
+    "best_iteration": 179,
+    "validation_average_precision": 0.8840859028440564,
+    "validation_roc_auc": 0.9669641612858271
+}

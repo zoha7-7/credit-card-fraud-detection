@@ -1,0 +1,13 @@
+{
+    "experiment": "lightgbm_weight_50",
+    "scale_pos_weight": 50,
+    "best_iteration": 1,
+    "validation_average_precision": 0.5834593136711537,
+    "validation_roc_auc": 0.9286008559018906,
+    "precision_at_0.50": 0.22857142857142856,
+    "recall_at_0.50": 0.8421052631578947,
+    "f1_at_0.50": 0.3595505617977528,
+    "true_positives": 64,
+    "false_positives": 216,
+    "false_negatives": 12
+}

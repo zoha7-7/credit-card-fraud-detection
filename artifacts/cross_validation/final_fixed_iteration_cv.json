@@ -1,0 +1,141 @@
+{
+    "experiment": "final_fixed_iteration_5fold_cv",
+    "smote_ratio": 0.03,
+    "n_splits": 5,
+    "random_state": 42,
+    "early_stopping": false,
+    "models": {
+        "baseline_min_child_50": {
+            "parameters": {
+                "num_leaves": 15,
+                "max_depth": 5,
+                "learning_rate": 0.05,
+                "max_bin": 127,
+                "random_state": 42,
+                "n_jobs": 2,
+                "verbosity": -1,
+                "min_child_samples": 50,
+                "n_estimators": 175
+            },
+            "fold_results": [
+                {
+                    "fold": 1,
+                    "pr_auc": 0.8147469741501113,
+                    "roc_auc": 0.9825237748505108,
+                    "iterations": 175,
+                    "training_rows": 181584,
+                    "validation_rows": 45396,
+                    "validation_fraud_count": 75
+                },
+                {
+                    "fold": 2,
+                    "pr_auc": 0.8713007233529245,
+                    "roc_auc": 0.9719561939645344,
+                    "iterations": 175,
+                    "training_rows": 181584,
+                    "validation_rows": 45396,
+                    "validation_fraud_count": 75
+                },
+                {
+                    "fold": 3,
+                    "pr_auc": 0.8017751143887916,
+                    "roc_auc": 0.9693672481070283,
+                    "iterations": 175,
+                    "training_rows": 181584,
+                    "validation_rows": 45396,
+                    "validation_fraud_count": 76
+                },
+                {
+                    "fold": 4,
+                    "pr_auc": 0.8726635266134269,
+                    "roc_auc": 0.9860512379802109,
+                    "iterations": 175,
+                    "training_rows": 181584,
+                    "validation_rows": 45396,
+                    "validation_fraud_count": 76
+                },
+                {
+                    "fold": 5,
+                    "pr_auc": 0.8388986482536336,
+                    "roc_auc": 0.9887922724950062,
+                    "iterations": 175,
+                    "training_rows": 181584,
+                    "validation_rows": 45396,
+                    "validation_fraud_count": 76
+                }
+            ],
+            "summary": {
+                "mean_pr_auc": 0.8398769973517777,
+                "std_pr_auc": 0.03219718844565219,
+                "mean_roc_auc": 0.9797381454794583,
+                "std_roc_auc": 0.008627084757026922
+            }
+        },
+        "candidate_C_min_child_100": {
+            "parameters": {
+                "num_leaves": 15,
+                "max_depth": 5,
+                "learning_rate": 0.05,
+                "max_bin": 127,
+                "random_state": 42,
+                "n_jobs": 2,
+                "verbosity": -1,
+                "min_child_samples": 100,
+                "n_estimators": 84
+            },
+            "fold_results": [
+                {
+                    "fold": 1,
+                    "pr_auc": 0.7916960690042559,
+                    "roc_auc": 0.9872329972124769,
+                    "iterations": 84,
+                    "training_rows": 181584,
+                    "validation_rows": 45396,
+                    "validation_fraud_count": 75
+                },
+                {
+                    "fold": 2,
+                    "pr_auc": 0.8675261459599073,
+                    "roc_auc": 0.9733933496613049,
+                    "iterations": 84,
+                    "training_rows": 181584,
+                    "validation_rows": 45396,
+                    "validation_fraud_count": 75
+                },
+                {
+                    "fold": 3,
+                    "pr_auc": 0.799319189934859,
+                    "roc_auc": 0.9778274086031495,
+                    "iterations": 84,
+                    "training_rows": 181584,
+                    "validation_rows": 45396,
+                    "validation_fraud_count": 76
+                },
+                {
+                    "fold": 4,
+                    "pr_auc": 0.8828522897716534,
+                    "roc_auc": 0.9864138639847633,
+                    "iterations": 84,
+                    "training_rows": 181584,
+                    "validation_rows": 45396,
+                    "validation_fraud_count": 76
+                },
+                {
+                    "fold": 5,
+                    "pr_auc": 0.8345084148647318,
+                    "roc_auc": 0.9892187717749803,
+                    "iterations": 84,
+                    "training_rows": 181584,
+                    "validation_rows": 45396,
+                    "validation_fraud_count": 76
+                }
+            ],
+            "summary": {
+                "mean_pr_auc": 0.8351804219070814,
+                "std_pr_auc": 0.04029956994065432,
+                "mean_roc_auc": 0.9828172782473349,
+                "std_roc_auc": 0.006839633604785251
+            }
+        }
+    }
+}

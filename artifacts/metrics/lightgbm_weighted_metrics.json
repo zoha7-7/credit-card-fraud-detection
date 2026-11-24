@@ -1,0 +1,15 @@
+{
+    "experiment": "LightGBM original imbalanced training with class weighting",
+    "scale_pos_weight": 600.2715231788079,
+    "best_iteration": 2,
+    "validation_average_precision": 0.23036392598556435,
+    "validation_roc_auc": 0.7386656872764435,
+    "threshold_0.50": {
+        "precision": 0.02957906712172924,
+        "recall": 0.6842105263157895,
+        "f1": 0.05670665212649945,
+        "true_positives": 52,
+        "false_positives": 1706,
+        "false_negatives": 24
+    }
+}

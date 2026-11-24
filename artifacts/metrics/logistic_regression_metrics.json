@@ -1,0 +1,15 @@
+{
+    "model": "Logistic Regression",
+    "average_precision": 0.7903964289471959,
+    "roc_auc": 0.9715080189993962,
+    "threshold": 0.5,
+    "precision": 0.051632498101746395,
+    "recall": 0.8947368421052632,
+    "f1_score": 0.09763101220387653,
+    "true_negatives": 44071,
+    "false_positives": 1249,
+    "false_negatives": 8,
+    "true_positives": 68,
+    "training_time_seconds": 2.8910536766052246,
+    "best_iteration": null
+}

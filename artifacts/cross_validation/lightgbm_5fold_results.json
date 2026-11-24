@@ -1,0 +1,117 @@
+{
+    "experiment": "Stratified 5-Fold Cross-Validation",
+    "training_data": "Original outer training portion only",
+    "smote_ratio": 0.03,
+    "n_splits": 5,
+    "random_state": 42,
+    "preprocessing": "Imputer and scaler fitted independently per fold",
+    "smote_applied_to": "Fold training data only",
+    "models": {
+        "baseline_min_child_50": {
+            "fold_results": [
+                {
+                    "fold": 1,
+                    "average_precision": 0.759050769840155,
+                    "roc_auc": 0.9826457197914138,
+                    "best_iteration": 17,
+                    "training_rows": 181584,
+                    "validation_rows": 45396,
+                    "validation_fraud_count": 75
+                },
+                {
+                    "fold": 2,
+                    "average_precision": 0.7915203784241572,
+                    "roc_auc": 0.9645010774990255,
+                    "best_iteration": 1,
+                    "training_rows": 181584,
+                    "validation_rows": 45396,
+                    "validation_fraud_count": 75
+                },
+                {
+                    "fold": 3,
+                    "average_precision": 0.8005142020221635,
+                    "roc_auc": 0.9792255075022065,
+                    "best_iteration": 82,
+                    "training_rows": 181584,
+                    "validation_rows": 45396,
+                    "validation_fraud_count": 76
+                },
+                {
+                    "fold": 4,
+                    "average_precision": 0.879522306753846,
+                    "roc_auc": 0.9874541273749246,
+                    "best_iteration": 77,
+                    "training_rows": 181584,
+                    "validation_rows": 45396,
+                    "validation_fraud_count": 76
+                },
+                {
+                    "fold": 5,
+                    "average_precision": 0.7799155248160551,
+                    "roc_auc": 0.9840161483253588,
+                    "best_iteration": 2,
+                    "training_rows": 181584,
+                    "validation_rows": 45396,
+                    "validation_fraud_count": 76
+                }
+            ],
+            "mean_pr_auc": 0.8021046363712754,
+            "std_pr_auc": 0.04597293709364202,
+            "mean_roc_auc": 0.9795685160985859,
+            "std_roc_auc": 0.008924388509052248
+        },
+        "regularized_min_child_100": {
+            "fold_results": [
+                {
+                    "fold": 1,
+                    "average_precision": 0.8119215688237269,
+                    "roc_auc": 0.9866072387340673,
+                    "best_iteration": 136,
+                    "training_rows": 181584,
+                    "validation_rows": 45396,
+                    "validation_fraud_count": 75
+                },
+                {
+                    "fold": 2,
+                    "average_precision": 0.8713202353127,
+                    "roc_auc": 0.9740246978957511,
+                    "best_iteration": 180,
+                    "training_rows": 181584,
+                    "validation_rows": 45396,
+                    "validation_fraud_count": 75
+                },
+                {
+                    "fold": 3,
+                    "average_precision": 0.7300178350140716,
+                    "roc_auc": 0.9579930145863335,
+                    "best_iteration": 14,
+                    "training_rows": 181584,
+                    "validation_rows": 45396,
+                    "validation_fraud_count": 76
+                },
+                {
+                    "fold": 4,
+                    "average_precision": 0.8849031919755042,
+                    "roc_auc": 0.9900317043712548,
+                    "best_iteration": 56,
+                    "training_rows": 181584,
+                    "validation_rows": 45396,
+                    "validation_fraud_count": 76
+                },
+                {
+                    "fold": 5,
+                    "average_precision": 0.8154396525091775,
+                    "roc_auc": 0.9837989791889254,
+                    "best_iteration": 2,
+                    "training_rows": 181584,
+                    "validation_rows": 45396,
+                    "validation_fraud_count": 76
+                }
+            ],
+            "mean_pr_auc": 0.8227204967270362,
+            "std_pr_auc": 0.06122097925550654,
+            "mean_roc_auc": 0.9784911269552664,
+            "std_roc_auc": 0.012916569707819636
+        }
+    }
+}

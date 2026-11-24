@@ -1,0 +1,76 @@
+{
+    "selection_rule": "Highest F1-score among thresholds with precision strictly greater than 0.90",
+    "minimum_precision_exclusive": 0.9,
+    "ranked_candidates": [
+        {
+            "model": "lightgbm",
+            "threshold": 0.8830631197603867,
+            "precision": 0.927536231884058,
+            "recall": 0.8421052631578947,
+            "f1_score": 0.8827586206891562,
+            "accuracy": 0.9996255176667548,
+            "true_negatives": 45315,
+            "false_positives": 5,
+            "false_negatives": 12,
+            "true_positives": 64,
+            "validation_rows": 45396,
+            "validation_frauds": 76
+        },
+        {
+            "model": "xgboost",
+            "threshold": 0.8446970582008362,
+            "precision": 0.9264705882352942,
+            "recall": 0.8289473684210527,
+            "f1_score": 0.8749999999995015,
+            "accuracy": 0.999603489294211,
+            "true_negatives": 45315,
+            "false_positives": 5,
+            "false_negatives": 13,
+            "true_positives": 63,
+            "validation_rows": 45396,
+            "validation_frauds": 76
+        },
+        {
+            "model": "random_forest",
+            "threshold": 0.8350390230056918,
+            "precision": 0.9393939393939394,
+            "recall": 0.8157894736842105,
+            "f1_score": 0.8732394366192207,
+            "accuracy": 0.999603489294211,
+            "true_negatives": 45316,
+            "false_positives": 4,
+            "false_negatives": 14,
+            "true_positives": 62,
+            "validation_rows": 45396,
+            "validation_frauds": 76
+        },
+        {
+            "model": "logistic_regression",
+            "threshold": 1.0,
+            "precision": 0.9130434782608695,
+            "recall": 0.8289473684210527,
+            "f1_score": 0.8689655172408803,
+            "accuracy": 0.9995814609216671,
+            "true_negatives": 45314,
+            "false_positives": 6,
+            "false_negatives": 13,
+            "true_positives": 63,
+            "validation_rows": 45396,
+            "validation_frauds": 76
+        }
+    ],
+    "best_candidate": {
+        "model": "lightgbm",
+        "threshold": 0.8830631197603867,
+        "precision": 0.927536231884058,
+        "recall": 0.8421052631578947,
+        "f1_score": 0.8827586206891562,
+        "accuracy": 0.9996255176667548,
+        "true_negatives": 45315,
+        "false_positives": 5,
+        "false_negatives": 12,
+        "true_positives": 64,
+        "validation_rows": 45396,
+        "validation_frauds": 76
+    }
+}

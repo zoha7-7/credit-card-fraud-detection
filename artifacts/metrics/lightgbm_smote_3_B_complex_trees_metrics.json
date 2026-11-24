@@ -1,0 +1,18 @@
+{
+    "experiment": "B_complex_trees",
+    "sampling_strategy": 0.03,
+    "parameters": {
+        "n_estimators": 200,
+        "num_leaves": 31,
+        "max_depth": 6,
+        "learning_rate": 0.05,
+        "min_child_samples": 50,
+        "max_bin": 127,
+        "random_state": 42,
+        "n_jobs": 2,
+        "verbosity": -1
+    },
+    "best_iteration": 29,
+    "validation_average_precision": 0.8592957311753232,
+    "validation_roc_auc": 0.9657475205555813
+}

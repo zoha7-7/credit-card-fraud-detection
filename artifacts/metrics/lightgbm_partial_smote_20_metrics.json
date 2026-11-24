@@ -1,0 +1,16 @@
+{
+    "experiment": "lightgbm_partial_smote_20",
+    "sampling_strategy": 0.2,
+    "original_training_rows": 181584,
+    "resampled_training_rows": 217538,
+    "resampled_fraud_count": 36256,
+    "best_iteration": 200,
+    "validation_average_precision": 0.8743215667782552,
+    "validation_roc_auc": 0.9730062828076369,
+    "precision_at_0.50": 0.6226415094339622,
+    "recall_at_0.50": 0.868421052631579,
+    "f1_at_0.50": 0.7252747252747253,
+    "true_positives": 66,
+    "false_positives": 40,
+    "false_negatives": 10
+}

@@ -1,0 +1,15 @@
+{
+    "model": "LightGBM",
+    "average_precision": 0.8208843124827888,
+    "roc_auc": 0.9700554826496958,
+    "threshold": 0.5,
+    "precision": 0.09770114942528736,
+    "recall": 0.8947368421052632,
+    "f1_score": 0.17616580310880828,
+    "true_negatives": 44692,
+    "false_positives": 628,
+    "false_negatives": 8,
+    "true_positives": 68,
+    "training_time_seconds": 3.760435104370117,
+    "best_iteration": 38
+}

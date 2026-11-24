@@ -1,0 +1,19 @@
+{
+    "model": "Random Forest",
+    "n_estimators": 100,
+    "max_depth": 12,
+    "min_samples_leaf": 2,
+    "max_features": "sqrt",
+    "threshold": 0.5,
+    "average_precision": 0.8609704841775461,
+    "roc_auc": 0.9687360640126352,
+    "precision": 0.717391304347826,
+    "recall": 0.868421052631579,
+    "f1_score": 0.7857142857142857,
+    "true_negatives": 45294,
+    "false_positives": 26,
+    "false_negatives": 10,
+    "true_positives": 66,
+    "training_time_seconds": 152.71451377868652,
+    "best_iteration": null
+}

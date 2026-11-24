@@ -1,0 +1,23 @@
+{
+    "experiment": "lightgbm_partial_smote_5",
+    "evaluation": "holdout_test",
+    "threshold": 0.90566961,
+    "threshold_selection": "validation_only",
+    "test_used_for_threshold_selection": false,
+    "accuracy": 0.9994889507630493,
+    "precision": 0.9342105263157895,
+    "recall": 0.7473684210526316,
+    "f1_score": 0.8304093567251462,
+    "roc_auc": 0.967861207448375,
+    "pr_auc_average_precision": 0.8197769440634575,
+    "specificity": 0.9999117403046724,
+    "false_positive_rate": 8.825969532753173e-05,
+    "balanced_accuracy": 0.873640080678652,
+    "true_negatives": 56646,
+    "false_positives": 5,
+    "false_negatives": 24,
+    "true_positives": 71,
+    "test_rows": 56746,
+    "test_frauds": 95,
+    "test_legitimate": 56651
+}
