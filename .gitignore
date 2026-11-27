@@ -1,1 +1,33 @@
 creditcard.csv
+
+# Python environment and temporary files
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Raw datasets
+/creditcard.csv
+/external_data/Sparkov/*.csv
+/external_data/banksim/*.csv
+
+# Large intermediate datasets
+/processed_data/*.csv
+/member*_test.csv
+/member*_train_balanced_part*.csv
+
+# Local backups and temporary work
+/member2_output_backup/
+/Untitled0_git_recovery.ipynb
+/project_structure.txt
+
+# Model experiments not required for ULB data creation
+/artifacts/trained_models/
+/artifacts/validation_predictions/
+/artifacts/test_evaluation_partial_smote_5/
+/artifacts/datasets/test_data.npz
+/artifacts/datasets/test_data_model_scaled.npz
+/artifacts/datasets/training_validation_data.npz
+
+# BankSim evaluation is parked
+/tests/pipeline_smoke_test.csv
